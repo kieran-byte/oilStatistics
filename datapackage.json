@@ -1,0 +1,379 @@
+{
+  "bytes": 424509,
+  "count_of_rows": 23657,
+  "descriptor": "A variety of temporal granularities for Europe Brent and WTI (West Texas Intermediate) Spot Prices.",
+  "hash": "feff740ae9facf85c24f9625897f47f6",
+  "keywords": [
+    "Oil",
+    "Brent",
+    "WTI",
+    "Oil Prices",
+    "eia",
+    "oil eia"
+  ],
+  "licenses": [
+    {
+      "name": "ODC-PDDL-1.0",
+      "path": "http://opendatacommons.org/licenses/pddl/",
+      "title": "Open Data Commons Public Domain Dedication and License v1.0"
+    }
+  ],
+  "name": "oil-prices",
+  "profile": "data-package",
+  "resources": [
+    {
+      "bytes": 166239,
+      "dialect": {
+        "caseSensitiveHeader": false,
+        "delimiter": ",",
+        "doubleQuote": true,
+        "header": true,
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "skipInitialSpace": false
+      },
+      "encoding": "utf-8",
+      "format": "csv",
+      "hash": "701ee887d4b994c9ded135e9379308a4",
+      "name": "brent-daily",
+      "path": "data\\brent-daily.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "format": "%Y-%m-%d",
+            "name": "Date",
+            "type": "date"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "Price",
+            "type": "number"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "bytes": 34297,
+      "dialect": {
+        "caseSensitiveHeader": false,
+        "delimiter": ",",
+        "doubleQuote": true,
+        "header": true,
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "skipInitialSpace": false
+      },
+      "encoding": "utf-8",
+      "format": "csv",
+      "hash": "22be8464f2c4574cf706ceef303b3707",
+      "name": "brent-week",
+      "path": "data\\brent-weekly.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "format": "%Y-%m-%d",
+            "name": "Date",
+            "type": "date"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "Price",
+            "type": "number"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "bytes": 7903,
+      "dialect": {
+        "caseSensitiveHeader": false,
+        "delimiter": ",",
+        "doubleQuote": true,
+        "header": true,
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "skipInitialSpace": false
+      },
+      "encoding": "utf-8",
+      "format": "csv",
+      "hash": "57997620d9cef2a19d5bc5cb492f5c41",
+      "name": "brent-month",
+      "path": "data\\brent-monthly.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "format": "%Y-%m-%d",
+            "name": "Date",
+            "type": "date"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "Price",
+            "type": "number"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "bytes": 662,
+      "dialect": {
+        "caseSensitiveHeader": false,
+        "delimiter": ",",
+        "doubleQuote": true,
+        "header": true,
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "skipInitialSpace": false
+      },
+      "encoding": "utf-8",
+      "format": "csv",
+      "hash": "dc0c2e9a91a0494421ee1bd9813faecc",
+      "name": "brent-year",
+      "path": "data\\brent-year.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "format": "%Y-%m-%d",
+            "name": "Date",
+            "type": "date"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "Price",
+            "type": "number"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "bytes": 171107,
+      "dialect": {
+        "caseSensitiveHeader": false,
+        "delimiter": ",",
+        "doubleQuote": true,
+        "header": true,
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "skipInitialSpace": false
+      },
+      "encoding": "utf-8",
+      "format": "csv",
+      "hash": "071ba8962a58bf474635511059a12a93",
+      "name": "wti-daily",
+      "path": "data\\wti-daily.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "format": "%Y-%m-%d",
+            "name": "Date",
+            "type": "date"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "Price",
+            "type": "number"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "bytes": 35470,
+      "dialect": {
+        "caseSensitiveHeader": false,
+        "delimiter": ",",
+        "doubleQuote": true,
+        "header": true,
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "skipInitialSpace": false
+      },
+      "encoding": "utf-8",
+      "format": "csv",
+      "hash": "0459be4c40e74c4457d7e5ed9a7c0ac5",
+      "name": "wti-week",
+      "path": "data\\wti-weekly.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "format": "%Y-%m-%d",
+            "name": "Date",
+            "type": "date"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "Price",
+            "type": "number"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "bytes": 8157,
+      "dialect": {
+        "caseSensitiveHeader": false,
+        "delimiter": ",",
+        "doubleQuote": true,
+        "header": true,
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "skipInitialSpace": false
+      },
+      "encoding": "utf-8",
+      "format": "csv",
+      "hash": "d5c1bcedfe8e7a12b0f67a31dcc94809",
+      "name": "wti-month",
+      "path": "data\\wti-monthly.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "format": "%Y-%m-%d",
+            "name": "Date",
+            "type": "date"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "Price",
+            "type": "number"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "bytes": 674,
+      "dialect": {
+        "caseSensitiveHeader": false,
+        "delimiter": ",",
+        "doubleQuote": true,
+        "header": true,
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "skipInitialSpace": false
+      },
+      "encoding": "utf-8",
+      "format": "csv",
+      "hash": "91461cbb00b49a4bac329606182814fa",
+      "name": "wti-year",
+      "path": "data\\wti-year.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "format": "%Y-%m-%d",
+            "name": "Date",
+            "type": "date"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "Price",
+            "type": "number"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    }
+  ],
+  "sources": [
+    {
+      "name": "Daily Europe Brent Spot Price",
+      "path": "https://www.eia.gov/dnav/pet/hist_xls/RBRTEd.xls",
+      "title": "Daily Europe Brent Spot Price"
+    },
+    {
+      "name": "Weekly Europe Brent Spot Price",
+      "path": "https://www.eia.gov/dnav/pet/hist_xls/RBRTEw.xls",
+      "title": "Weekly Europe Brent Spot Price"
+    },
+    {
+      "name": "Monthly Europe Brent Spot Price",
+      "path": "https://www.eia.gov/dnav/pet/hist_xls/RBRTEm.xls",
+      "title": "Monthly Europe Brent Spot Price"
+    },
+    {
+      "name": "Annual Europe Brent Spot Price",
+      "path": "https://www.eia.gov/dnav/pet/hist_xls/RBRTEa.xls",
+      "title": "Annual Europe Brent Spot Price"
+    },
+    {
+      "name": "Daily Cushing, OK WTI Spot Price",
+      "path": "http://www.eia.gov/dnav/pet/hist_xls/RWTCd.xls",
+      "title": "Daily Cushing, OK WTI Spot Price"
+    },
+    {
+      "name": "Weekly Cushing, OK WTI Spot Price",
+      "path": "http://www.eia.gov/dnav/pet/hist_xls/RWTCw.xls",
+      "title": "Weekly Cushing, OK WTI Spot Price"
+    },
+    {
+      "name": "Monthly Cushing, OK WTI Spot Price",
+      "path": "http://www.eia.gov/dnav/pet/hist_xls/RWTCm.xls",
+      "title": "Monthly Cushing, OK WTI Spot Price"
+    },
+    {
+      "name": "Annual Cushing, OK WTI Spot Price",
+      "path": "http://www.eia.gov/dnav/pet/hist_xls/RWTCa.xls",
+      "title": "Annual Cushing, OK WTI Spot Price"
+    }
+  ],
+  "title": "Brent and WTI Spot Prices",
+  "views": [
+    {
+      "name": "graph",
+      "resourceName": "brent-daily",
+      "spec": {
+        "group": "Date",
+        "series": [
+          "Price"
+        ],
+        "type": "line"
+      },
+      "specType": "simple",
+      "title": "Europe Brent Spot Price FOB (Dollars per Barrel)"
+    }
+  ]
+}
