@@ -47,7 +47,7 @@ The project directory includes the following components:
 5. **Result Interpretation:**
    - Review the generated results to understand the correlation analysis outcome.
 
-## Notes
 
-- Ensure the reliability and accuracy of the data sources used for oil prices and oil production.
-- Adjust the analysis parameters and techniques as needed for a more comprehensive correlation assessment.
+## Image created in Power Apps using excel spreadsheet
+
+![Oil Price vs Production](images/barChart.png)
